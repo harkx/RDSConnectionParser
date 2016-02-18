@@ -1,15 +1,15 @@
 # RDS Connection Parser
 
-This Powershell script will parse the Windows event logs of your Remote
-Desktop Session host servers and give you a nice report in Excel (xlsx) format.
+This Powershell script will parse the Windows event logs of your Remote Desktop Session host servers and give you a nice report in Excel (xlsx) format.
 
-# Instructions:
+# Instructions
 
   - Before you run, edit $SessionHosts to include one or several of your own servers.
 
 # Requirements
 
-  - Import-Excel module needs to be installed and imported before use.
+  - ImportExcel module needs to be installed and imported before use.
+    - https://github.com/dfinke/ImportExcel
   - Some basic powershell knowledge.
 
 # Source
